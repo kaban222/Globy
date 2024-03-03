@@ -1,4 +1,4 @@
-import datetime
+teimport datetime
 import json
 import ssl
 import threading
@@ -13,7 +13,7 @@ app = Flask('app')
 CORS(app)
 
 
-bot = Bot("6661637402:AAHOn3AWvGSOzbRPbYAvxGD8uS3orjDKfWs", parse_mode="HTML", disable_web_page_preview=True)
+bot = Bot("secret line", parse_mode="HTML", disable_web_page_preview=True)
 dp = Dispatcher(bot)
 
 BD = {}
